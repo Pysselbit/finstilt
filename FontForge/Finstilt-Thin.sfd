@@ -1,8 +1,9 @@
 SplineFontDB: 3.2
-FontName: Finstilt_thin-Regular
-FullName: Finstilt_thin Regular
-FamilyName: Finstilt_thin
-Weight: Book
+FontName: Finstilt-Thin
+FullName: Finstilt Thin
+FamilyName: Finstilt
+Weight: Thin
+Copyright: 
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -21,9 +22,9 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1788217785
-ModificationTime: 1788217787
+ModificationTime: 1788276931
 PfmFamily: 17
-TTFWeight: 400
+TTFWeight: 100
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
@@ -59,6 +60,7 @@ OS2UnicodeRanges: a0000007.00000008.00000000.00000000
 Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 0" { "'calt' Contextual Alternates in Latin lookup 0 contextual 0"  "'calt' Contextual Alternates in Latin lookup 0 contextual 1"  "'calt' Contextual Alternates in Latin lookup 0 contextual 2"  "'calt' Contextual Alternates in Latin lookup 0 contextual 3"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 1+ 8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
  5 space
@@ -128,7 +130,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "Calligraphr : Finstilt_thin Regular : 31-08-2026" "" "Version 001.000" "" "" "" "Joakim Rasmuson" "" "" "" "" "" "" "Finstilt_thin" "Regular"
+LangName: 1033 "" "" "" "Pysselbit : Finstilt Thin : 31-08-2026" "" "Version 001.000" "" "" "" "Joakim Rasmuson" "" "" "" "" "" "" "" "Thin"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 Compacted: 1
@@ -137,7 +139,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 24 12
+WinInfo: 24 24 12
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 262144 131072 87381 469762 1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65680 326
 
 StartChar: .notdef
